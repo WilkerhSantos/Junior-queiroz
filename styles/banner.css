@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteúdo-principal {
+    background-image: url(/assets/salao1.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteúdo-principal-título {
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+
+

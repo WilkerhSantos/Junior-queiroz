@@ -1,0 +1,14 @@
+@import url(/styles/header.css);
+@import url(/styles/banner.css);
+
+
+:root {
+    --fonte-principal: "DM Sans";
+    --cor-do-texto-principal: #EBEAED;
+    --cor-do-texto-secundário: #1E0E62;
+    --branco: #FFFFFF;
+    --cor-do-botão1: #E93A7D;
+    --cor-do-botão2: #25DAC5;
+ 
+}
+

@@ -1,0 +1,68 @@
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    position: fixed;
+    padding: 1rem;
+    width: 100%;
+    margin-left: 1rem;
+    background-color: black;
+    opacity: 50%;
+ 
+}
+
+.cabeçalho-logo {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 30px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte-principal);
+    list-style-type: none;
+    gap: 8rem;
+}
+
+.cabeçalho-menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    font-size: 16px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+
+.cabeçalho-menu-redes {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.botão-pesquisa {
+    background-color: transparent;
+    border: 0.5px solid var(--branco);
+    color: var(--branco);
+    border-radius: 20px;
+    padding: 1rem;
+    height: 100%;
+    width: 130%;
+}
+
+.botão-pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    color: var(--branco);
+    background: url("/assets/lupa.svg") no-repeat;
+    background-position: 0.5rem;
+}
+
+/*--------------------------------------------------------*/
+

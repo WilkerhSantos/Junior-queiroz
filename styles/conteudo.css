@@ -1,0 +1,319 @@
+
+
+.conteúdo-secundario{
+    display: flex;
+    justify-content: center;
+ 
+   
+}
+
+.conteúdo-secundário-título {
+    margin: 2em;
+    text-align: center;
+    color: var(--cor-do-texto-secundário);
+    font-family: var(--fonte-principal);
+    font-size: 42px;
+}
+
+.conteudo-texto2{
+    padding: 32px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 32px;
+}
+
+
+
+
+.conteúdo-secundário-texto1{
+    color: aliceblue;
+    width: 800px;
+    height: 120px;
+    opacity: 50%;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    gap: 32px;
+    flex-direction: column;
+    border-radius: 5%;
+
+
+}
+.conteudo-secundário-texto2{
+    color: aliceblue;
+    opacity: 50%;
+    width: 800px;
+    height: 120px;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    gap: 32px;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+
+
+.servicos {
+    background-color: var(--cor-do-texto-principal);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../assets/salao2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+.servicos-titulo{
+    color:azure;
+    font-size: 90px;
+    font-family: var(--fonte-principal);
+    width: 1500px;
+    text-align: center;
+    margin: auto;
+}
+
+.servicos-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-do-texto-principal);
+    border: 2px solid #000;
+    border-radius: 20%;
+    margin: 30px;
+    text-align: center;
+  
+    
+}
+.servicos-conteudo:hover{
+    transition: background-color 0.5s ease;
+    background-color:bisque;
+}
+
+.servicos-conteudo img {
+    width: 200px;
+    height: 200px;
+}
+.conteudo-terciario{
+    margin: 60px 0 0 0;
+
+}
+
+.conteúdo-terciario-texto1{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 200px;
+    padding: 90px;
+    margin: auto;
+    border-radius: 20%;
+    border: 2px solid black;
+    opacity: 50%;
+    background-color: #000;
+    color: aliceblue;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.apresentacao-sobremim{
+    display: flex;
+    justify-content: flex-end;
+    margin: 80px;
+    
+
+}
+.sobre-mim {
+   
+    color: black;
+    margin: 50px;
+    padding: 50px;
+   
+}
+.sobre-mim-titulo{
+    font-size: 80px;
+    color: #000;
+    font-family: var(--fonte-principal);
+    width: 1500px;
+    text-align: center;
+    margin: auto;
+    color: #000;
+}
+
+.apresentacao-sobremim{
+    display: flex;
+    align-items: center;
+ 
+ }
+ .conteudo-sobre-junior{
+    display: flex;
+    text-align: center;
+    font-size: var(--fonte-principal);
+    font-size: 30px;
+
+ }
+ .imagem-junior img{
+    width: 300px;
+    height: 300px;
+    
+
+ }
+
+
+.conteudo-sobre-junior-texto{
+   display: flex;
+   margin: 50px;
+   padding: 50px;
+}
+
+.equipe{
+    background-color: var(--cor-do-texto-principal);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../assets/salao2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 20%;
+}
+.equipe-conteudo:hover{
+    transition: background-color 0.5s ease;
+    background-color:bisque
+
+}
+.equipe-titulo{
+    color:azure;
+    font-size: 90px;
+    font-family: var(--fonte-principal);
+    width: 1500px;
+    text-align: center;
+    margin: auto;
+}
+.equipe-conteudo{
+    font-size: 20px;
+    color: var(--cor-do-texto-principal);
+    border: 2px solid #000;
+    border-radius: 20%;
+    margin: 30px;
+    text-align: center;
+}
+
+.imagens img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    font-size: 200px;
+}
+.nosso-espaco{
+    justify-content: center;
+    padding: 20px;  
+    margin: 80px;
+ 
+}
+.nosso-espaco-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+.texto-nosso-espaco{
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin: 100px;
+    flex-wrap: wrap;
+    font-family:var(--cor-do-texto-principal)
+
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+form{
+    background-color: #1313;
+    padding: 2rem;
+    width: 50rem;
+    height: auto;
+}
+form h3{
+    text-align: center;
+    color:#000;
+    font-size: 2rem;
+
+}
+.localizacao.container-form.map{
+     width: 00%;
+     flex: 1.45rem;
+     object-fit: cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 1rem;
+    margin-top: 1rem;
+    background: #000;
+}
+.container-form input{
+    width: 100%;
+    padding: 1,5rem;
+    background: #000;
+
+
+}
+
+.inputform span{
+    font-size: 1,5rem;
+    color: #fff;
+}
+form button{
+    margin-top: 2rem;
+    background-color: goldenrod;
+    font-size: 1,2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+form button:hover{
+    letter-spacing: 2px;
+    transition: 0,3s all;
+}
+.endereco{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    background-color:#cfb698;
+    border-radius: 10px;
+
+}
+.footer2{ 
+ 
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+ 
+
+}
